@@ -12,6 +12,7 @@ client.aliases = new Collection();
 client.categories = fs.readdirSync(path.resolve('src/commands'));
 client.roleID = config.staffID;
 client.channels = config.CHANNELID;
+client.color = config.color;
 ["command"].forEach(handler => {
     require(path.resolve(`src/handlers/${handler}`))(client);
 }); 

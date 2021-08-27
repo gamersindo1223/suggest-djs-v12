@@ -1,6 +1,7 @@
 {
-    "token": "",
-    "prefix": "",
-    "CHANNELID": "",
-    "staffID": ""
+    "token": "//BOts TOken",
+    "prefix": "//bots prefix",
+    "CHANNELID": "//suggestion channel id",
+    "staffID": "//STAFF Role ID" ,
+    "color": "// Embed Color" 
 }
