@@ -4,3 +4,5 @@
 __
 **Give Credits Please i Worked Hard For This**
 __
+*REQUIRE DISCORD.js 12.5.3 *
+~~ npm i discord.js@12.5.3~~
