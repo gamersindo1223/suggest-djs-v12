@@ -33,7 +33,10 @@ message.channel.send(b).then(async(x) =>{
     .setFooter(`Suggestion ID : ${x.id} || status: waiting `)
     .setAuthor(`by ${message.author.tag}`, message.author.displayAvatarURL({dynamic: true}))
     .setColor("ORANGE")
-    suggestinChannel.edit(embed)
+    suggestinChannel.send(embed).then(msg =>{
+        msg.react("✅")
+        msg.react("❌")
+    })
 }, 200);
 })
 
